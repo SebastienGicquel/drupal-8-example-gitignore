@@ -1,0 +1,36 @@
+# All folders and files are excluded
+# except the theme folder
+# It could be useful if you only work on a custom theme for Drupal 8
+# Feel free to include some folders if you need to (like module folder if you work on custom module)
+
+# Drupal 8 folders
+core
+modules/
+profiles/
+sites/
+vendor/
+themes/bootstrap/
+
+# Drupal 8 files
+.gitignore
+.csslintrc
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitattributes
+.htaccess
+README.txt
+autoload.php
+composer.json
+composer.lock
+example.gitignore
+index.php
+robots.txt
+update.php
+web.config
+
+# extra folder
+
+#NetBeans
+nbproject
+dev-temp
